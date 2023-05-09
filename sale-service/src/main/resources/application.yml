@@ -1,0 +1,11 @@
+server:
+  port: 7000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/saga_sale
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
