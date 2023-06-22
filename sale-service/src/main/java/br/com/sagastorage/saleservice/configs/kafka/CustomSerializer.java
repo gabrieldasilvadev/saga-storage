@@ -1,6 +1,6 @@
-package br.com.sagastorage.saleservice.config.kafka;
+package br.com.sagastorage.saleservice.configs.kafka;
 
-import br.com.sagastorage.saleservice.adapters.out.messages.SaleMessage;
+import br.com.sagastorage.saleservice.adapters.out.kafka.messages.SaleMessage;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Serializer;

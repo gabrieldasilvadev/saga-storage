@@ -6,9 +6,9 @@ import br.com.sagastorage.saleservice.application.core.domain.Sale;
 import br.com.sagastorage.saleservice.application.ports.out.SaveSaleOutputPort;
 import io.vavr.control.Try;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 @RequiredArgsConstructor
 public class SaveSaleAdapter implements SaveSaleOutputPort {
 
