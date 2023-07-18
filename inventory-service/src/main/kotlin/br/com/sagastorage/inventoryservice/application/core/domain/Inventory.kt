@@ -1,6 +1,6 @@
 package br.com.sagastorage.inventoryservice.application.core.domain
 
-class Inventory(
+data class Inventory(
     val id: Long,
     val productId: Long,
     var quantity: Int
@@ -10,5 +10,9 @@ class Inventory(
             throw IllegalArgumentException("Invalid quantity")
         }
         this.quantity -= quantity
+    }
+
+    fun creditQuantity(quantity: Int) {
+        this.quantity += quantity
     }
 }

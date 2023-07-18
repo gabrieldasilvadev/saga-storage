@@ -1,6 +1,6 @@
-package br.com.sagastorage.inventoryservice.application.core.domain
+package br.com.sagastorage.paymentservice.application.core.domain
 
-import br.com.sagastorage.inventoryservice.application.core.domain.enums.SaleStatus
+import br.com.sagastorage.paymentservice.application.core.domain.enums.SaleStatus
 import java.math.BigDecimal
 
 data class Sale(
