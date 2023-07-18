@@ -94,4 +94,28 @@ public class Sale {
     public Integer getQuantity() {
         return quantity;
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setProductId(Long productId) {
+        this.productId = productId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public void setValue(BigDecimal value) {
+        this.value = value;
+    }
+
+    public void setStatus(SaleStatus status) {
+        this.status = status;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
 }

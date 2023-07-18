@@ -1,0 +1,11 @@
+server:
+  port: 7200
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/saga_payment
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update

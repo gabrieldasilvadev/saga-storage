@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component
 class ReceiveSaleToDebitInventoryConsumer(
     private val debitInventoryInputPort: DebitInventoryInputPort
 ) {
-
     @ReceiveSaleToDebitInventoryListener
     fun receive(saleMessage: SaleMessage) {
         if(SaleEvent.CREATED_SALE == saleMessage.event) {
